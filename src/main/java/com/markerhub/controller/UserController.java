@@ -22,7 +22,7 @@ public class UserController {
     @Autowired
     UserService userService;
 
-    @GetMapping("/index")
+    @GetMapping("/index1")
     public Object index(){
         return userService.getById(1L);
     }
